@@ -470,8 +470,6 @@ The dashboard provides a business-facing view of the Hong Kong trading sector an
 
 🖼️ Dashboard Preview
 
-<img width="1199" height="1399" alt="Dashboard" src="https://github.com/user-attachments/assets/99cd7e0c-21c3-4e61-8381-4e2c793c0033" />
-
 ---
 
 # 🏦 Banking Takeaway
