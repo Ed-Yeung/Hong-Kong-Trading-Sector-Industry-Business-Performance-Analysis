@@ -455,9 +455,6 @@ The Python analysis was transformed into one interactive Tableau dashboard for b
 
 </p>
 
-🔗 View the Dashboard
-
-Open the interactive Tableau dashboard →
 
 The dashboard provides a business-facing view of the Hong Kong trading sector and supports exploration of the project's key analytical themes, including:
 
@@ -474,53 +471,6 @@ The dashboard provides a business-facing view of the Hong Kong trading sector an
 🖼️ Dashboard Preview
 
 <img width="1199" height="1399" alt="Dashboard" src="https://github.com/user-attachments/assets/99cd7e0c-21c3-4e61-8381-4e2c793c0033" />
-
-
-
-# 💻 Code & Project Files
-
-## 🐍 Main Python Notebook
-
-The main analysis notebook contains the data-loading, cleaning, restructuring, feature-engineering and exploratory-analysis workflow.
-
-**Notebook:**
-
-```text
-HK_Trading_Business_Analysis_Professional_v2.ipynb
-```
-
-👉 [Open Python Notebook](./HK_Trading_Business_Analysis_Professional_v2.ipynb)
-
----
-
-## 📁 Suggested Repository Structure
-
-```text
-HK-Trading-Business-Analysis/
-│
-├── README.md
-│
-├── HK_Trading_Business_Analysis_Professional_v2.ipynb
-│
-├── data/
-│   ├── raw/
-│   └── cleaned/
-│
-├── tableau/
-│   └── HK_Trading_Business_Analysis.twbx
-│
-├── images/
-│   ├── dashboard_executive_overview.png
-│   ├── dashboard_productivity.png
-│   ├── dashboard_business_structure.png
-│   ├── dashboard_cost_structure.png
-│   └── dashboard_time_trends.png
-│
-└── docs/
-    └── project_documentation.pdf
-```
-
-> **Tip:** Do not upload confidential data, credentials, personal information, or unnecessary raw files to a public repository.
 
 ---
 
@@ -558,43 +508,6 @@ Cost intensity, workforce contraction and structural changes may indicate differ
 
 ---
 
-# 🚀 How to Run the Project
-
-## 1. Clone the repository
-
-```bash
-git clone https://github.com/YOUR_USERNAME/HK-Trading-Business-Analysis.git
-cd HK-Trading-Business-Analysis
-```
-
-## 2. Install dependencies
-
-```bash
-pip install pandas numpy matplotlib seaborn openpyxl jupyter
-```
-
-## 3. Open the notebook
-
-```bash
-jupyter notebook
-```
-
-Then open:
-
-```text
-HK_Trading_Business_Analysis_Professional_v2.ipynb
-```
-
-## 4. Update the data path
-
-Inside the notebook, replace the local file path with the location of your dataset.
-
-```python
-DATA_PATH = "path/to/your/data.xlsx"
-```
-
----
-
 # 📚 Data Source
 
 **Hong Kong Census and Statistics Department (C&SD)**
@@ -603,22 +516,3 @@ DATA_PATH = "path/to/your/data.xlsx"
 * [Import/Export and Wholesale Trades](https://www.censtatd.gov.hk/en/scode550.html)
 
 ---
-
-# 👤 Author
-
-**Your Name**
-
-🎓 BBA in Information Management (Business Intelligence)
-🏫 City University of Hong Kong
-📍 Hong Kong
-
-### 🔗 Connect
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?logo=linkedin\&logoColor=white)](YOUR_LINKEDIN_URL)
-[![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?logo=github\&logoColor=white)](https://github.com/YOUR_USERNAME)
-
----
-
-<p align="center">
-  <sub>Built with Python 🐍 • Tableau 📊 • C&SD Open Data 🇭🇰</sub>
-</p>
