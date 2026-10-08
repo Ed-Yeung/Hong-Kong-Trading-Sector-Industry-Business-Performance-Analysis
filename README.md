@@ -1,4 +1,4 @@
-# 🇭🇰 Hong Kong Trading Sector — Industry & Business Performance Analysis
+<img width="716" height="614" alt="download" src="https://github.com/user-attachments/assets/a8c2eaf6-cec0-4e2b-8940-f1527e2d6648" /><img width="716" height="614" alt="download" src="https://github.com/user-attachments/assets/315e3980-7cf0-4dc5-8772-43a9e86ca0e4" /># 🇭🇰 Hong Kong Trading Sector — Industry & Business Performance Analysis
 
 > **Industry analytics project using Python + Tableau to analyse Hong Kong's Import/Export, Wholesale and Retail Trades Sector (2015–2024), identify structural and productivity trends, and translate them into practical banking insights.**
 
@@ -336,15 +336,9 @@ Python was used to validate the dataset, investigate patterns and generate hypot
 
 
 ```python
-# 1. Data distributions & Outlier analysis
-<img width="1189" height="390" alt="download" src="https://github.com/user-attachments/assets/9b84001e-9947-41e6-b619-aa66070ea852" />
-<img width="1189" height="390" alt="download" src="https://github.com/user-attachments/assets/a65cb0de-5f63-4d15-bb11-a5b1d571b38d" />
-<img width="687" height="468" alt="download" src="https://github.com/user-attachments/assets/f04b7f79-c377-46cf-9a59-0fc9d8ad95ec" />
-<img width="1188" height="390" alt="download" src="https://github.com/user-attachments/assets/849dca19-2c40-4912-a9fc-b76135ca6aaa" />
-<img width="691" height="468" alt="download" src="https://github.com/user-attachments/assets/3cc94053-c6cc-4c13-ab62-e542c5d885e5" />
-<img width="1189" height="390" alt="download" src="https://github.com/user-attachments/assets/55852dd1-26aa-4d0b-a02f-fd3fdb750454" />
-<img width="1189" height="390" alt="download" src="https://github.com/user-attachments/assets/6b357856-3adb-4b57-9397-c5a0a47fbb2d" />
-<img width="1189" height="390" alt="download" src="https://github.com/user-attachments/assets/b20cdf5b-8a23-43a2-929f-30b20d8bf6eb" />
+# 1. Relationship-heatmeap
+<div align="center"> <img width="716" height="614" alt="download" src="https://github.com/user-attachments/assets/5e74b671-e876-44f1-bf97-86f5e1e5f757" /></div>
+
 
 
 
