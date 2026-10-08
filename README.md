@@ -334,7 +334,6 @@ Python was used to validate the dataset, investigate patterns and generate hypot
 
 ### Main Areas
 
-<img width="1189" height="390" alt="download" src="https://github.com/user-attachments/assets/9b84001e-9947-41e6-b619-aa66070ea852" />
 
 ```python
 # 1. Data distributions & Outlier analysis
