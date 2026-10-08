@@ -334,6 +334,8 @@ Python was used to validate the dataset, investigate patterns and generate hypot
 
 ### Main Areas
 
+# 1. Relationship-heatmeap
+<div align="center"> <img width="716" height="614" alt="download" src="https://github.com/user-attachments/assets/5e74b671-e876-44f1-bf97-86f5e1e5f757" /></div>
 
 ```python
 # 1. Relationship-heatmeap
