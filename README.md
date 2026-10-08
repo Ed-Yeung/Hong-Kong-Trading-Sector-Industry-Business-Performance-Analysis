@@ -328,38 +328,98 @@ Retail Trade
 
 ---
 
-# 🔬 Python Exploratory Analysis
+🔬 Python Exploratory Analysis
 
-Python was used to validate the dataset, investigate patterns and generate hypotheses for the Tableau analysis.
+Python was used to validate the dataset, investigate patterns, identify outliers and generate hypotheses for the subsequent Tableau business analysis.
 
-### Main Areas
+1️⃣ 📊 Data Distributions & Outlier Analysis
 
-# 1. Relationship-heatmeap
-<div align="center"> 
-  <img width="716" height="614" alt="download" src="https://github.com/user-attachments/assets/5e74b671-e876-44f1-bf97-86f5e1e5f757" />
-</div>
+The initial exploration examined the distribution of key financial and operational variables and identified unusual observations that required further investigation.
 
-```python
-# 1. Relationship-heatmeap
-<div align="center"> <img width="716" height="614" alt="download" src="https://github.com/user-attachments/assets/5e74b671-e876-44f1-bf97-86f5e1e5f757" /></div>
+<p align="center"> <img width="90%" src="https://github.com/user-attachments/assets/9b84001e-9947-41e6-b619-aa66070ea852" /> </p>
 
+<p align="center"> <img width="90%" src="https://github.com/user-attachments/assets/a65cb0de-5f63-4d15-bb11-a5b1d571b38d" /> </p>
 
+<p align="center"> <img width="65%" src="https://github.com/user-attachments/assets/f04b7f79-c377-46cf-9a59-0fc9d8ad95ec" /> </p>
 
+2️⃣ 📈 Time Trends
 
+Time-series analysis was used to examine how revenue, workforce, productivity and cost structures changed across 2015–2024.
 
+<p align="center"> <img width="90%" src="https://github.com/user-attachments/assets/849dca19-2c40-4912-a9fc-b76135ca6aaa" /> </p>
 
+3️⃣ 🔄 Trade-Activity Differences
 
+The analysis compared the three major trade activities — Import/Export, Wholesale and Retail — to identify differences in scale and operating characteristics.
 
+<p align="center"> <img width="65%" src="https://github.com/user-attachments/assets/3cc94053-c6cc-4c13-ab62-e542c5d885e5" /> </p>
 
-# 3. Time trends
-# 4. Trade-activity differences
-# 5. Industry differences
-# 6. Establishment-size structure
-# 7. Productivity relationships
-# 8. Cost structure
-# 9. Hypothesis generation
-```
+4️⃣ 🏭 Industry Differences
 
+Industry-level analysis was used to identify differences in revenue generation, productivity and value creation across the sector.
+
+<p align="center"> <img width="90%" src="https://github.com/user-attachments/assets/55852dd1-26aa-4d0b-a02f-fd3fdb750454" /> </p>
+
+5️⃣ 🏢 Establishment-Size Structure
+
+The analysis examined how companies and employment are distributed across different establishment-size bands, highlighting the structure of the SME and larger-establishment segments.
+
+<p align="center"> <img width="90%" src="https://github.com/user-attachments/assets/6b357856-3adb-4b57-9397-c5a0a47fbb2d" /> </p>
+
+6️⃣ 👥 Productivity Relationships
+
+Several productivity measures were developed to compare operating scale and employee-level performance across industries.
+
+Key Metrics
+Revenue per employee
+Value added per employee
+Revenue per company
+Persons per company
+
+These measures helped identify differences between revenue productivity and value creation across industries.
+
+<p align="center"> <img width="90%" src="https://github.com/user-attachments/assets/b20cdf5b-8a23-43a2-929f-30b20d8bf6eb" /> </p>
+
+7️⃣ 💰 Cost Structure
+
+The analysis compared COGS intensity, operating-expense intensity and value-added margins to understand differences in operating economics and potential cost exposure.
+
+Key Metrics
+COGS Ratio
+Operating Expense Ratio
+Value-Added Margin
+
+These measures were later used to support the business-facing Tableau analysis.
+
+The project documentation identifies COGS ratio, operating expense ratio and value-added margin as key descriptive measures.
+
+8️⃣ 💡 Hypothesis Generation
+
+The Python exploration was used as a hypothesis-generation stage before developing the Tableau dashboards.
+
+Python EDA
+     ↓
+Identify patterns
+     ↓
+Investigate outliers
+     ↓
+Compare industries & segments
+     ↓
+Generate hypotheses
+     ↓
+Tableau Business Analysis
+     ↓
+Business Insights
+Selected Observations
+Revenue per company increases strongly with establishment size.
+Revenue per employee and value added per employee are highly heterogeneous across industries.
+Import/Export shows a distinctly higher employee-based productivity profile.
+Revenue productivity and value creation are positively related but not identical.
+COGS ratio and operating-expense ratio show a strong inverse relationship.
+Some industries show distinctive cost structures and value-added margins.
+Workforce levels decline over the period while some productivity measures improve.
+
+These observations provided the starting point for the interactive Tableau dashboards and banking-oriented recommendations.
 ### Selected Findings
 
 * Revenue per company increases strongly with establishment size.
