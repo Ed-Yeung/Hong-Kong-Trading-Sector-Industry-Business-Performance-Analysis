@@ -1,4 +1,4 @@
-<img width="716" height="614" alt="download" src="https://github.com/user-attachments/assets/a8c2eaf6-cec0-4e2b-8940-f1527e2d6648" /><img width="716" height="614" alt="download" src="https://github.com/user-attachments/assets/315e3980-7cf0-4dc5-8772-43a9e86ca0e4" /># 🇭🇰 Hong Kong Trading Sector — Industry & Business Performance Analysis
+# 🇭🇰 Hong Kong Trading Sector — Industry & Business Performance Analysis
 
 > **Industry analytics project using Python + Tableau to analyse Hong Kong's Import/Export, Wholesale and Retail Trades Sector (2015–2024), identify structural and productivity trends, and translate them into practical banking insights.**
 
@@ -335,7 +335,9 @@ Python was used to validate the dataset, investigate patterns and generate hypot
 ### Main Areas
 
 # 1. Relationship-heatmeap
-<div align="center"> <img width="716" height="614" alt="download" src="https://github.com/user-attachments/assets/5e74b671-e876-44f1-bf97-86f5e1e5f757" /></div>
+<div align="center"> 
+  <img width="716" height="614" alt="download" src="https://github.com/user-attachments/assets/5e74b671-e876-44f1-bf97-86f5e1e5f757" />
+</div>
 
 ```python
 # 1. Relationship-heatmeap
