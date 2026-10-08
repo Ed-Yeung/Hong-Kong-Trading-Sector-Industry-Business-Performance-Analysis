@@ -328,107 +328,113 @@ Retail Trade
 
 ---
 
-🔬 Python Exploratory Analysis
+# 🔬 Python Exploratory Analysis
 
-Python was used to validate the dataset, investigate patterns, identify outliers and generate hypotheses for the subsequent Tableau business analysis.
+Python was used to validate the dataset, investigate distributions, identify unusual observations and compare productivity and operating characteristics across the Hong Kong trading sector.
 
-1️⃣ 📊 Data Distributions & Outlier Analysis
+---
 
-The initial exploration examined the distribution of key financial and operational variables and identified unusual observations that required further investigation.
+# 1️⃣ 📊 Data Distributions & Outlier Analysis
 
-<p align="center"> <img width="90%" src="https://github.com/user-attachments/assets/9b84001e-9947-41e6-b619-aa66070ea852" /> </p>
+The initial analysis examined the distribution and potential outliers of key business and financial metrics.
 
-<p align="center"> <img width="90%" src="https://github.com/user-attachments/assets/a65cb0de-5f63-4d15-bb11-a5b1d571b38d" /> </p>
+## 💵 Revenue per Company
 
-<p align="center"> <img width="65%" src="https://github.com/user-attachments/assets/f04b7f79-c377-46cf-9a59-0fc9d8ad95ec" /> </p>
+Revenue per company shows a right-skewed distribution, with several higher-value observations appearing as potential outliers.
 
-2️⃣ 📈 Time Trends
+<p align="center">
+  <img width="90%" src="https://github.com/user-attachments/assets/9b84001e-9947-41e6-b619-aa66070ea852" />
+</p>
 
-Time-series analysis was used to examine how revenue, workforce, productivity and cost structures changed across 2015–2024.
+---
 
-<p align="center"> <img width="90%" src="https://github.com/user-attachments/assets/849dca19-2c40-4912-a9fc-b76135ca6aaa" /> </p>
+## 👤 Revenue per Employee
 
-3️⃣ 🔄 Trade-Activity Differences
+Revenue per employee also shows substantial variation across observations, with several high-productivity observations identified as potential outliers.
 
-The analysis compared the three major trade activities — Import/Export, Wholesale and Retail — to identify differences in scale and operating characteristics.
+<p align="center">
+  <img width="90%" src="https://github.com/user-attachments/assets/a65cb0de-5f63-4d15-bb11-a5b1d571b38d" />
+</p>
 
-<p align="center"> <img width="65%" src="https://github.com/user-attachments/assets/3cc94053-c6cc-4c13-ab62-e542c5d885e5" /> </p>
+---
 
-4️⃣ 🏭 Industry Differences
+## 📈 Value Added per Employee
 
-Industry-level analysis was used to identify differences in revenue generation, productivity and value creation across the sector.
+The distribution of value added per employee is concentrated at lower levels with a smaller number of higher-value observations.
 
-<p align="center"> <img width="90%" src="https://github.com/user-attachments/assets/55852dd1-26aa-4d0b-a02f-fd3fdb750454" /> </p>
+<p align="center">
+  <img width="90%" src="https://github.com/user-attachments/assets/849dca19-2c40-4912-a9fc-b76135ca6aaa" />
+</p>
 
-5️⃣ 🏢 Establishment-Size Structure
+---
 
-The analysis examined how companies and employment are distributed across different establishment-size bands, highlighting the structure of the SME and larger-establishment segments.
+## 📦 COGS Ratio
 
-<p align="center"> <img width="90%" src="https://github.com/user-attachments/assets/6b357856-3adb-4b57-9397-c5a0a47fbb2d" /> </p>
+The COGS ratio distribution highlights differences in direct-cost intensity across the observations.
 
-6️⃣ 👥 Productivity Relationships
+<p align="center">
+  <img width="90%" src="https://github.com/user-attachments/assets/55852dd1-26aa-4d0b-a02f-fd3fdb750454" />
+</p>
 
-Several productivity measures were developed to compare operating scale and employee-level performance across industries.
+---
 
-Key Metrics
-Revenue per employee
-Value added per employee
-Revenue per company
-Persons per company
+## 🧾 Operating Expense Ratio
 
-These measures helped identify differences between revenue productivity and value creation across industries.
+The operating expense ratio shows a concentrated distribution with a smaller number of observations exhibiting relatively high operating-expense intensity.
 
-<p align="center"> <img width="90%" src="https://github.com/user-attachments/assets/b20cdf5b-8a23-43a2-929f-30b20d8bf6eb" /> </p>
+<p align="center">
+  <img width="90%" src="https://github.com/user-attachments/assets/6b357856-3adb-4b57-9397-c5a0a47fbb2d" />
+</p>
 
-7️⃣ 💰 Cost Structure
+---
 
-The analysis compared COGS intensity, operating-expense intensity and value-added margins to understand differences in operating economics and potential cost exposure.
+## 📊 Value-Added Margin
 
-Key Metrics
-COGS Ratio
-Operating Expense Ratio
-Value-Added Margin
+The value-added margin distribution provides an additional view of differences in value creation relative to total receipts.
 
-These measures were later used to support the business-facing Tableau analysis.
+<p align="center">
+  <img width="90%" src="https://github.com/user-attachments/assets/b20cdf5b-8a23-43a2-929f-30b20d8bf6eb" />
+</p>
 
-The project documentation identifies COGS ratio, operating expense ratio and value-added margin as key descriptive measures.
+---
 
-8️⃣ 💡 Hypothesis Generation
+# 2️⃣ 🔄 Trade-Activity Differences
 
-The Python exploration was used as a hypothesis-generation stage before developing the Tableau dashboards.
+The analysis compared **Import/Export, Wholesale and Retail** to examine differences in employee-based value creation across the three major trade activities.
 
-Python EDA
-     ↓
-Identify patterns
-     ↓
-Investigate outliers
-     ↓
-Compare industries & segments
-     ↓
-Generate hypotheses
-     ↓
-Tableau Business Analysis
-     ↓
-Business Insights
-Selected Observations
-Revenue per company increases strongly with establishment size.
-Revenue per employee and value added per employee are highly heterogeneous across industries.
-Import/Export shows a distinctly higher employee-based productivity profile.
-Revenue productivity and value creation are positively related but not identical.
-COGS ratio and operating-expense ratio show a strong inverse relationship.
-Some industries show distinctive cost structures and value-added margins.
-Workforce levels decline over the period while some productivity measures improve.
+## 💼 Value Added per Employee by Trade Type — Overall Comparison
 
-These observations provided the starting point for the interactive Tableau dashboards and banking-oriented recommendations.
-### Selected Findings
+Import/Export shows a noticeably higher value-added-per-employee profile compared with Wholesale and Retail.
+
+<p align="center">
+  <img width="75%" src="https://github.com/user-attachments/assets/f04b7f79-c377-46cf-9a59-0fc9d8ad95ec" />
+</p>
+
+---
+
+## 💼 Value Added per Employee by Trade Type — Comparative View
+
+A further trade-type comparison highlights the differences in the distribution of employee-level value creation across Import/Export, Wholesale and Retail.
+
+<p align="center">
+  <img width="75%" src="https://github.com/user-attachments/assets/3cc94053-c6cc-4c13-ab62-e542c5d885e5" />
+</p>
+
+---
+
+# 💡 Key Observations from Python EDA
+
+The exploratory analysis identified several patterns for further business analysis:
 
 * Revenue per company increases strongly with establishment size.
-* Revenue per employee and value added per employee are highly heterogeneous across industries.
-* Import/Export shows a distinctly higher employee-based productivity profile.
-* Revenue productivity and value creation are positively related but not identical.
-* COGS ratio and operating-expense ratio show a strong inverse relationship.
-* Some industries show distinctive cost structures and value-added margins.
-* Workforce levels decline over the period while some productivity measures improve.
+* Revenue per employee and value added per employee vary substantially across observations.
+* Import/Export shows a stronger employee-based productivity profile.
+* Revenue productivity and value creation are related but not identical.
+* COGS and operating-expense ratios show different operating-cost structures across observations.
+* Some observations exhibit unusually high productivity or cost ratios and warrant further investigation.
+
+These findings were subsequently used to guide the **Tableau business analysis and industry-screening framework**.
+
 
 ---
 
