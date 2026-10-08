@@ -440,110 +440,43 @@ These findings were subsequently used to guide the **Tableau business analysis a
 
 # 📊 Tableau Dashboard
 
-The Tableau workbook converts the Python analysis into a business-facing analytical interface.
+The Python analysis was transformed into one interactive Tableau dashboard for business-facing exploration.
 
-## 01 — Executive Overview
+🖥️ Interactive Dashboard
 
-**Business question:** Where is economic activity concentrated?
+<p align="center">
 
-Includes:
+<a href="https://public.tableau.com/app/profile/man.yin.yeung/viz/Hk_tradefinalv/Dashboard?publish=yes">
 
-* Total revenue
-* Industry value added
-* Number of companies
-* Persons engaged
-* Revenue by major trade activity
-* Value added by major trade activity
+<img src="https://img.shields.io/badge/📊%20Open%20Interactive%20Tableau%20Dashboard-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Open Tableau Dashboard">
 
-### 🖼️ Dashboard Preview
+</a>
 
-> **Add your screenshot here**
+</p>
 
-```markdown
-![Executive Overview](images/dashboard_executive_overview.png)
-```
+🔗 View the Dashboard
 
----
+Open the interactive Tableau dashboard →
 
-## 02 — Industry & Productivity
+The dashboard provides a business-facing view of the Hong Kong trading sector and supports exploration of the project's key analytical themes, including:
 
-**Business question:** Which industries show distinctive productivity and value-creation profiles?
+📈 Industry and trade-activity performance
 
-Includes:
+👥 Business and workforce structure
 
-* Revenue per employee
-* Value added per employee
-* Productivity scatter plot
-* Parent → child drill-down
-* Industry comparison
+💵 Productivity and value creation
 
-### 🖼️ Dashboard Preview
+💰 Cost structure
 
-```markdown
-![Industry & Productivity](images/dashboard_productivity.png)
-```
+🔎 Interactive comparison and exploration
 
----
+🖼️ Dashboard Preview
 
-## 03 — Business Structure
+Replace the placeholder below with a screenshot of your Tableau dashboard after uploading it to the repository.
 
-**Business question:** How is the business population distributed by establishment size?
+![Tableau Dashboard](images/tableau_dashboard.png)
 
-Includes:
-
-* Share of companies by size band
-* Share of persons engaged by size band
-* Persons per company
-* Industry × scale analysis
-
-### 🖼️ Dashboard Preview
-
-```markdown
-![Business Structure](images/dashboard_business_structure.png)
-```
-
----
-
-## 04 — Cost Structure
-
-**Business question:** How do industries differ in operating economics?
-
-Includes:
-
-* COGS ratio
-* Operating expense ratio
-* Value-added margin
-* COGS ratio vs operating expense ratio
-* Industry drill-down
-
-### 🖼️ Dashboard Preview
-
-```markdown
-![Cost Structure](images/dashboard_cost_structure.png)
-```
-
----
-
-## 05 — Time Trends
-
-**Business question:** How have the sector's characteristics changed over 2015–2024?
-
-Includes:
-
-* Revenue trends
-* Workforce trends
-* Productivity trends
-* Cost-ratio trends
-* Value-added margin trends
-* 2021–2022 subsidy annotation
-
-### 🖼️ Dashboard Preview
-
-```markdown
-![Time Trends](images/dashboard_time_trends.png)
-```
-
----
+Note: The live Tableau dashboard is hosted on Tableau Public. The link above opens the interactive version rather than a static image.
 
 # 💻 Code & Project Files
 
