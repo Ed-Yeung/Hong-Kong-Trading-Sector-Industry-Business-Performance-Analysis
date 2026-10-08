@@ -449,6 +449,7 @@ The Python analysis was transformed into one interactive Tableau dashboard for b
 <a href="https://public.tableau.com/app/profile/man.yin.yeung/viz/Hk_tradefinalv/Dashboard?publish=yes">
 
 <img src="https://img.shields.io/badge/📊%20Open%20Interactive%20Tableau%20Dashboard-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Open Tableau Dashboard">
+<img width="1199" height="1399" alt="Dashboard" src="https://github.com/user-attachments/assets/99cd7e0c-21c3-4e61-8381-4e2c793c0033" />
 
 </a>
 
@@ -472,11 +473,9 @@ The dashboard provides a business-facing view of the Hong Kong trading sector an
 
 🖼️ Dashboard Preview
 
-Replace the placeholder below with a screenshot of your Tableau dashboard after uploading it to the repository.
+<img width="1199" height="1399" alt="Dashboard" src="https://github.com/user-attachments/assets/99cd7e0c-21c3-4e61-8381-4e2c793c0033" />
 
-![Tableau Dashboard](images/tableau_dashboard.png)
 
-Note: The live Tableau dashboard is hosted on Tableau Public. The link above opens the interactive version rather than a static image.
 
 # 💻 Code & Project Files
 
