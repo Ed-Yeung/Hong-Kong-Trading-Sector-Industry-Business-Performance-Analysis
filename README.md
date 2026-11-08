@@ -111,6 +111,8 @@ Exploratory Data Analysis
 
 🔄 Data Pipeline
 
+The workflow moves from raw C&SD data to validated analysis and business recommendations.
+```mermaid
 flowchart TD
     A["🇭🇰 HK C&SD Open Data"] --> B["📥 Raw Data Extraction"]
     B --> C["🐍 Python Data Wrangling"]
@@ -122,50 +124,9 @@ flowchart TD
     H --> I["📊 Tableau Business Analysis"]
     I --> J["💡 Business Insights"]
     J --> K["🏦 Banking Recommendations"]
-    
-┌──────────────────────────────┐
-│ 🇭🇰 C&SD Open Data            │
-└──────────────┬───────────────┘
-               ↓
-┌──────────────────────────────┐
-│ 📥 Raw Data Extraction        │
-└──────────────┬───────────────┘
-               ↓
-┌──────────────────────────────┐
-│ 🐍 Python Data Wrangling      │
-└──────────────┬───────────────┘
-               ↓
-┌──────────────────────────────┐
-│ 🧹 Data Validation & Cleaning │
-└──────────────┬───────────────┘
-               ↓
-┌──────────────────────────────┐
-│ 🌳 Hierarchy Reconstruction   │
-└──────────────┬───────────────┘
-               ↓
-┌──────────────────────────────┐
-│ ⚙️ Feature Engineering        │
-└──────────────┬───────────────┘
-               ↓
-┌──────────────────────────────┐
-│ 🔎 Python Initial EDA         │
-└──────────────┬───────────────┘
-               ↓
-┌──────────────────────────────┐
-│ 📤 Clean Analytical Dataset   │
-└──────────────┬───────────────┘
-               ↓
-┌──────────────────────────────┐
-│ 📊 Tableau Business Analysis  │
-└──────────────┬───────────────┘
-               ↓
-┌──────────────────────────────┐
-│ 💡 Business Insights          │
-└──────────────┬───────────────┘
-               ↓
-┌──────────────────────────────┐
-│ 🏦 Banking Recommendations    │
-└──────────────────────────────┘
+```
+---
+
 
 🗂️ Dataset
 Source: Hong Kong Census and Statistics Department (C&SD)
