@@ -110,6 +110,19 @@ Exploratory Data Analysis
 - Trade-activity comparisons
 
 🔄 Data Pipeline
+
+flowchart TD
+    A["🇭🇰 HK C&SD Open Data"] --> B["📥 Raw Data Extraction"]
+    B --> C["🐍 Python Data Wrangling"]
+    C --> D["🧹 Data Validation & Cleaning"]
+    D --> E["🌳 Hierarchy Reconstruction"]
+    E --> F["⚙️ Feature Engineering"]
+    F --> G["🔎 Python Initial EDA"]
+    G --> H["📤 Clean Analytical Dataset"]
+    H --> I["📊 Tableau Business Analysis"]
+    I --> J["💡 Business Insights"]
+    J --> K["🏦 Banking Recommendations"]
+    
 ┌──────────────────────────────┐
 │ 🇭🇰 C&SD Open Data            │
 └──────────────┬───────────────┘
