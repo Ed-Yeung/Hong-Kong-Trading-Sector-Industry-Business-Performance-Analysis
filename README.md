@@ -5,7 +5,7 @@ An industry analytics project using Python and Tableau to analyse Hong Kong's Im
   <img ![Uploading Dashboard 1 (1).png…]()
  alt="Hong Kong Trading Sector Performance Tableau Dashboard" width="100%" />
 </p><p align="center">
-  <a href="https://public.tableau.com/app/profile/man.yin.yeung/viz/Hk_tradefinalv/Dashboard?publish=yes"><strong>↗ Open the Interactive Tableau Dashboard</strong></a>
+  <a href="https://public.tableau.com/app/profile/man.yin.yeung/viz/Hk_retailindustryFinal/Dashboard1?publish=yes"><strong>↗ Open the Interactive Tableau Dashboard</strong></a>
 </p><p align="center">
   <img src="https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas&logoColor=white" alt="Pandas" />
