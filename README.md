@@ -1,8 +1,9 @@
-🇭🇰 Hong Kong Trading Sector — Industry & Business Performance Analysis
+<img width="1599" height="1399" alt="Dashboard 1 (1)" src="https://github.com/user-attachments/assets/84466cd9-9703-49ee-82b6-f7a61d78cc19" />🇭🇰 Hong Kong Trading Sector — Industry & Business Performance Analysis
 An industry analytics project using Python and Tableau to analyse Hong Kong's Import/Export, Wholesale and Retail Trades Sector (2015–2024), identify structural and productivity trends, and translate the findings into practical banking insights.
 
 <p align="center">
-  <img src="assets/dashboard-preview.png" alt="Hong Kong Trading Sector Performance Tableau Dashboard" width="100%" />
+  <img ![Uploading Dashboard 1 (1).png…]()
+ alt="Hong Kong Trading Sector Performance Tableau Dashboard" width="100%" />
 </p><p align="center">
   <a href="https://public.tableau.com/app/profile/man.yin.yeung/viz/Hk_tradefinalv/Dashboard?publish=yes"><strong>↗ Open the Interactive Tableau Dashboard</strong></a>
 </p><p align="center">
@@ -107,6 +108,7 @@ Exploratory Data Analysis
 - Trend analysis
 - Industry comparisons
 - Trade-activity comparisons
+
 🔄 Data Pipeline
 ┌──────────────────────────────┐
 │ 🇭🇰 C&SD Open Data            │
@@ -151,6 +153,7 @@ Exploratory Data Analysis
 ┌──────────────────────────────┐
 │ 🏦 Banking Recommendations    │
 └──────────────────────────────┘
+
 🗂️ Dataset
 Source: Hong Kong Census and Statistics Department (C&SD)
 
